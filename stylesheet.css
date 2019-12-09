@@ -1,0 +1,64 @@
+body{
+	background-image: url("res/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#particles-js canvas{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: transparent;
+	background-repeat: no-repeat;
+	z-index: -1;
+} 
+.particle.js-canvas-el{
+	position: relative;
+}
+#heading{
+	text-align: center;
+	font-size: 130px;
+	margin-top: 13%;
+	color: white;
+	font-family: "Times New Roman";
+	z-index:-1;
+}
+#subhead{
+	text-align: center;
+	color: white;
+	margin-top: 2%;
+	font-family: "Times New Roman";
+	font-size: 19px;
+}
+.btn {
+  outline: 5px solid white;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Times New Roman";
+  color: white;
+}
+.contact{
+	margin-top: 3%;
+	margin-left: 40%;
+}
+.resume{
+	margin-top: -3.5%;
+	margin-left: 55%;
+}
+
+ul#menu{
+	margin-top: 1.5%;
+	margin-left: 67%;
+}
+
+ul#menu li { 
+  font-family: "Times New Roman";
+  cursor: pointer;		
+  display:inline;
+  margin-left: 5%;
+  color: white;
+  font-size: 30px;
+}
