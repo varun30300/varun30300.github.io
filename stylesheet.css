@@ -1,5 +1,5 @@
 body{
-	background-image: url("res/bg.jpg");
+	background-image: url("res/bg2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -15,6 +15,33 @@ body{
 .particle.js-canvas-el{
 	position: relative;
 }
+.coll{
+	background-color: transparent;
+	color:white;
+	outline: 5px solid white;
+}
+#abt{
+	color:white;
+	margin-top: 3%;
+	font-size: 21px;
+	width:50%;
+	margin-left: 25%;
+}
+#proj{
+	color:white;
+	margin-top: 3%;
+	font-size: 21px;
+	width:50%;
+	margin-left: 25%;
+}
+#cont{
+	color:white;
+	margin-top: 3%;
+	font-size: 21px;
+	width:50%;
+	margin-left: 25%;
+	cursor: pointer;
+}
 #heading{
 	text-align: center;
 	font-size: 130px;
@@ -26,7 +53,7 @@ body{
 #subhead{
 	text-align: center;
 	color: white;
-	margin-top: 2%;
+	margin-top: 1.5%;
 	font-family: "Times New Roman";
 	font-size: 19px;
 }
@@ -40,6 +67,9 @@ body{
   font-family: "Times New Roman";
   color: white;
 }
+.btn-primary{
+	background-color: transparent;
+}
 .contact{
 	margin-top: 3%;
 	margin-left: 40%;
@@ -52,7 +82,7 @@ body{
 ul#menu{
 	margin-top: 1.5%;
 	align-items: center;
-	margin-left: 30%;
+	margin-left: 33%;
 }
 
 ul#menu li { 
@@ -62,4 +92,14 @@ ul#menu li {
   margin-left: 5%;
   color: white;
   font-size: 30px;
+}
+
+ul#bottom{
+	margin-top: 8%;
+	margin-left: 5%;
+}
+ul#bottom li{
+	cursor: pointer;
+	display:inline;
+	margin-left: 2%;
 }
