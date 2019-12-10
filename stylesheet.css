@@ -18,7 +18,7 @@ body{
 #heading{
 	text-align: center;
 	font-size: 130px;
-	margin-top: 13%;
+	margin-top: 11%;
 	color: white;
 	font-family: "Times New Roman";
 	z-index:-1;
@@ -51,7 +51,8 @@ body{
 
 ul#menu{
 	margin-top: 1.5%;
-	margin-left: 67%;
+	align-items: center;
+	margin-left: 30%;
 }
 
 ul#menu li { 
